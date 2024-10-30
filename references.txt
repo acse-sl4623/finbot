@@ -1,0 +1,5 @@
+ChatGBT references are incorporated in the docstrings of the functions used.
+The packaging structure was also inspired by the SciBot: https://github.com/CFN-softbio/SciBot
+
+LangChain Documentation used throughout the RAG implementation: https://python.langchain.com/v0.2/docs/tutorials/rag/
+Qdrant Documentation used throughout the knowledge base set up: https://qdrant.tech/documentation/

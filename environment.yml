@@ -1,0 +1,37 @@
+name: finbot-env
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.10.14
+  - pip
+  - numpy
+  - scipy
+  - pytest
+  - pdfplumber
+  - pandas
+  - PyPDF2
+  - tabula-py
+  - unstructured
+  - tesseract  # OCR tool
+  - poppler    # PDF rendering
+  - pytorch==2.3.1
+  - torchvision==0.18.1
+  - pip:
+    - jupyter
+    - ipykernel
+    - python-dotenv
+    - pydantic==2.8.2
+    - langchain==0.2.10
+    - langchain-core==0.2.22
+    - langchain_community==0.2.9
+    - transformers==4.42.4
+    - qdrant-client
+    - langchain_qdrant
+    - langchain_huggingface
+    - unstructured[all-docs]
+    - lxml
+    - langchainhub
+    - fuzzywuzzy
+    - seaborn
